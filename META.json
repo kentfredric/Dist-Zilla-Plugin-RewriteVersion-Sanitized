@@ -111,6 +111,17 @@
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/kentfredric/Dist-Zilla-Plugin-RewriteVersion-Sanitized/issues"
+      },
+      "homepage" : "https://github.com/kentfredric/Dist-Zilla-Plugin-RewriteVersion-Sanitized",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/kentfredric/Dist-Zilla-Plugin-RewriteVersion-Sanitized.git",
+         "web" : "https://github.com/kentfredric/Dist-Zilla-Plugin-RewriteVersion-Sanitized"
+      }
+   },
    "version" : "0.001000",
    "x_BuiltWith" : {
       "modules" : {

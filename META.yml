@@ -29,6 +29,10 @@ requires:
   strict: '0'
   utf8: '0'
   warnings: '0'
+resources:
+  bugtracker: https://github.com/kentfredric/Dist-Zilla-Plugin-RewriteVersion-Sanitized/issues
+  homepage: https://github.com/kentfredric/Dist-Zilla-Plugin-RewriteVersion-Sanitized
+  repository: https://github.com/kentfredric/Dist-Zilla-Plugin-RewriteVersion-Sanitized.git
 version: '0.001000'
 x_BuiltWith:
   modules:
