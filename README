@@ -1,0 +1,30 @@
+NAME
+    Dist::Zilla::Plugin::RewriteVersion::Sanitized - RewriteVersion but
+    force normalizing ENV{V} and other sources.
+
+VERSION
+    version 0.001000
+
+SYNOPSIS
+    As per
+    "[Git::NextVersion::Sanitized]|Dist::Zilla::Plugin::Git::NextVersion::Sa
+    nitized"
+
+      V=2.6.0 dzil release # -> V=2.006000 interally
+
+    This is really just a glue layer that wraps
+    "Dist::Zilla::Role::Version::Sanitize" around "[RewriteVersion]".
+
+    So see the documentation for Dist::Zilla::Role::Version::Sanitize for
+    details and attributes.
+
+AUTHOR
+    Kent Fredric <kentfredric@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2014 by Kent Fredric
+    <kentfredric@gmail.com>.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+

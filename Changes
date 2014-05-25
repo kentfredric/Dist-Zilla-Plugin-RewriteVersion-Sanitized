@@ -1,0 +1,10 @@
+Release history for Dist-Zilla-Plugin-RewriteVersion-Sanitized
+
+0.001000 2014-05-25T20:17:17Z
+ - First version.
+
+ [Dependencies::Aggregate]
+ - 5.008009 : 204
+ - 5.010001 : 183
+ - 5.018002 : 169
+ - 5.019009 : 164
