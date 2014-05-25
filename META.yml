@@ -1,5 +1,5 @@
 ---
-abstract: 'RewriteVersion but force normalising ENV{V} and other sources.'
+abstract: '::RewriteVersion but force normalising ENV{V} and other sources.'
 author:
   - 'Kent Fredric <kentfredric@gmail.com>'
 build_requires:
