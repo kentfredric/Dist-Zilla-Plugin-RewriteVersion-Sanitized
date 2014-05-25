@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "::RewriteVersion but force normalising ENV{V} and other sources.",
+  "ABSTRACT" => "::RewriteVersion but force normalizing ENV{V} and other sources.",
   "AUTHOR" => "Kent Fredric <kentfredric\@gmail.com>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
