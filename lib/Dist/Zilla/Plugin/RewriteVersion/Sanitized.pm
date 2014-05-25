@@ -1,5 +1,7 @@
+use 5.008;    # utf8
 use strict;
 use warnings;
+use utf8;
 
 package Dist::Zilla::Plugin::RewriteVersion::Sanitized;
 $Dist::Zilla::Plugin::RewriteVersion::Sanitized::VERSION = '0.001000';

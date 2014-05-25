@@ -111,8 +111,9 @@ my $static_prereqs = do { my $x = {
                                       'Dist::Zilla::Plugin::RewriteVersion' => '0',
                                       'Dist::Zilla::Role::Version::Sanitize' => '0',
                                       'Moose' => '0',
-                                      'perl' => '5.006',
+                                      'perl' => '5.008',
                                       'strict' => '0',
+                                      'utf8' => '0',
                                       'warnings' => '0'
                                     }
                     },
