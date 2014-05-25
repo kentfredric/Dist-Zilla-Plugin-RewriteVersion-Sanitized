@@ -19,8 +19,7 @@ $bundle->configure;
 
 my @stopwords = (qw(RewriteVersion));
 for my $wordlist (@stopwords) {
-    $bundle->add_or_append_policy_field(
-        'Documentation::PodSpelling' => ( 'stop_words' => $wordlist ) );
+  $bundle->add_or_append_policy_field( 'Documentation::PodSpelling' => ( 'stop_words' => $wordlist ) );
 }
 
 #$bundle->add_or_append_policy_field(
@@ -34,18 +33,18 @@ my $inf = $bundle->actionlist->get_inflated;
 my $config = $inf->apply_config;
 
 {
-    open my $rcfile, '>', './perlcritic.rc' or croak 'Cant open perlcritic.rc';
-    $rcfile->print( $config->as_ini, "\n" );
-    close $rcfile or croak 'Something fubared closing perlcritic.rc';
+  open my $rcfile, '>', './perlcritic.rc' or croak 'Cant open perlcritic.rc';
+  $rcfile->print( $config->as_ini, "\n" );
+  close $rcfile or croak 'Something fubared closing perlcritic.rc';
 }
 my $deps = $inf->own_deps;
 {
-    open my $depsfile, '>', './perlcritic.deps'
-      or croak 'Cant open perlcritic.deps';
-    for my $key ( sort keys %{$deps} ) {
-        $depsfile->printf( "%s~%s\n", $key, $deps->{$key} );
-        *STDERR->printf( "%s => %s\n", $key, $deps->{$key} );
-    }
-    close $depsfile or carp 'Something fubared closing perlcritic.deps';
+  open my $depsfile, '>', './perlcritic.deps'
+    or croak 'Cant open perlcritic.deps';
+  for my $key ( sort keys %{$deps} ) {
+    $depsfile->printf( "%s~%s\n", $key, $deps->{$key} );
+    *STDERR->printf( "%s => %s\n", $key, $deps->{$key} );
+  }
+  close $depsfile or carp 'Something fubared closing perlcritic.deps';
 }
 

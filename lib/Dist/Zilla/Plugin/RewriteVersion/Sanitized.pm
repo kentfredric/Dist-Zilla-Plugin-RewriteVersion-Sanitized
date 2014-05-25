@@ -7,6 +7,8 @@ package Dist::Zilla::Plugin::RewriteVersion::Sanitized;
 $Dist::Zilla::Plugin::RewriteVersion::Sanitized::VERSION = '0.001000';
 # ABSTRACT: RewriteVersion but force normalizing ENV{V} and other sources.
 
+our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
+
 use Moose qw( extends with );
 
 
