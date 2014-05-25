@@ -3,3 +3,8 @@ Release history for Dist-Zilla-Plugin-RewriteVersion-Sanitized
 {{$NEXT}}
  - First version.
 
+ [Dependencies::Aggregate]
+ - 5.008009 : 204
+ - 5.010001 : 183
+ - 5.018002 : 169
+ - 5.019009 : 164
