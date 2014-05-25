@@ -19,6 +19,8 @@ use Moose qw( extends with );
 
 
 
+
+
 extends 'Dist::Zilla::Plugin::RewriteVersion';
 with 'Dist::Zilla::Role::Version::Sanitize';
 
@@ -47,9 +49,11 @@ As per C<[Git::NextVersion::Sanitized]|Dist::Zilla::Plugin::Git::NextVersion::Sa
 
   V=2.6.0 dzil release # -> V=2.006000 interally
 
-This is really just a glue layer that wraps L<< C<Dist::Zilla::Role::Version::Sanitize>|Dist::Zilla::Role::Version::Sanitize >> around L<< C<[RewriteVersion]>|Dist::Zilla::Plugin::RewriteVersion >>.
+This is really just a glue layer that wraps L<< C<Dist::Zilla::Role::Version::Sanitize>|Dist::Zilla::Role::Version::Sanitize >>
+around L<< C<[RewriteVersion]>|Dist::Zilla::Plugin::RewriteVersion >>.
 
-So see L<< the documentation for Dist::Zilla::Role::Version::Sanitize|Dist::Zilla::Role::Version::Sanitize >> for details and attributes.
+So see L<< the documentation for Dist::Zilla::Role::Version::Sanitize|Dist::Zilla::Role::Version::Sanitize >> for details and
+attributes.
 
 =head1 AUTHOR
 
