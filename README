@@ -1,5 +1,5 @@
 NAME
-    Dist::Zilla::Plugin::RewriteVersion::Sanitized - ::RewriteVersion but
+    Dist::Zilla::Plugin::RewriteVersion::Sanitized - RewriteVersion but
     force normalizing ENV{V} and other sources.
 
 VERSION

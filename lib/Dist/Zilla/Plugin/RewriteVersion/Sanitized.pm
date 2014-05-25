@@ -5,7 +5,7 @@ use utf8;
 
 package Dist::Zilla::Plugin::RewriteVersion::Sanitized;
 $Dist::Zilla::Plugin::RewriteVersion::Sanitized::VERSION = '0.001000';
-# ABSTRACT: ::RewriteVersion but force normalizing ENV{V} and other sources.
+# ABSTRACT: RewriteVersion but force normalizing ENV{V} and other sources.
 
 use Moose qw( extends with );
 
@@ -39,7 +39,7 @@ __END__
 
 =head1 NAME
 
-Dist::Zilla::Plugin::RewriteVersion::Sanitized - ::RewriteVersion but force normalizing ENV{V} and other sources.
+Dist::Zilla::Plugin::RewriteVersion::Sanitized - RewriteVersion but force normalizing ENV{V} and other sources.
 
 =head1 VERSION
 
