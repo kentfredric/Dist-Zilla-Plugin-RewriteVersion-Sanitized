@@ -222,7 +222,7 @@
                "Dist::Zilla::Role::Bootstrap" : {
                   "distname" : "Dist-Zilla-Plugin-RewriteVersion-Sanitized",
                   "fallback" : "1",
-                  "try_built" : null,
+                  "try_built" : "1",
                   "try_built_method" : "mtime"
                }
             },
