@@ -1,5 +1,7 @@
 Release history for Dist-Zilla-Plugin-RewriteVersion-Sanitized
 
+0.001001 2014-07-20T10:56:47Z
+
 0.001000 2014-05-25T20:17:17Z
  - First version.
 
@@ -8,3 +10,4 @@ Release history for Dist-Zilla-Plugin-RewriteVersion-Sanitized
  - 5.010001 : 183
  - 5.018002 : 169
  - 5.019009 : 164
+
