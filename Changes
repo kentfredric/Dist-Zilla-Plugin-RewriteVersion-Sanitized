@@ -1,6 +1,10 @@
 Release history for Dist-Zilla-Plugin-RewriteVersion-Sanitized
 
-0.001001 2014-07-20T10:56:47Z
+0.001001 2014-07-20T10:59:48Z
+ [Dependencies::Stats]
+ - Dependencies changed since 0.001000, see misc/*.deps* for details
+ - develop: ↑1
+ - test: +2 ↑1 (recommends: +1)
 
 0.001000 2014-05-25T20:17:17Z
  - First version.
