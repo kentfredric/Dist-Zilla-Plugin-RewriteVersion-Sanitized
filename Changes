@@ -1,6 +1,8 @@
 Release history for Dist-Zilla-Plugin-RewriteVersion-Sanitized
 
 {{$NEXT}}
+
+0.001001 2014-07-20T11:07:16Z
  [00 Trivial]
  - Misc packaging cleanups.
 
