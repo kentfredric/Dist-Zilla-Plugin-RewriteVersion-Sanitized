@@ -5,7 +5,7 @@ use utf8;
 
 package Dist::Zilla::Plugin::RewriteVersion::Sanitized;
 
-our $VERSION = '0.001001';
+our $VERSION = '0.001002';
 
 # ABSTRACT: RewriteVersion but force normalizing ENV{V} and other sources.
 
@@ -47,7 +47,7 @@ Dist::Zilla::Plugin::RewriteVersion::Sanitized - RewriteVersion but force normal
 
 =head1 VERSION
 
-version 0.001001
+version 0.001002
 
 =head1 SYNOPSIS
 

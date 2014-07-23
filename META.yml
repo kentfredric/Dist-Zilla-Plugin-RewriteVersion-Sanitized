@@ -22,7 +22,7 @@ name: Dist-Zilla-Plugin-RewriteVersion-Sanitized
 provides:
   Dist::Zilla::Plugin::RewriteVersion::Sanitized:
     file: lib/Dist/Zilla/Plugin/RewriteVersion/Sanitized.pm
-    version: '0.001001'
+    version: '0.001002'
 requires:
   Dist::Zilla::Plugin::RewriteVersion: '0'
   Dist::Zilla::Role::Version::Sanitize: '0'
@@ -32,10 +32,10 @@ requires:
   utf8: '0'
   warnings: '0'
 resources:
-  bugtracker: https://github.com/kentfredric/Dist-Zilla-Plugin-RewriteVersion-Sanitized/issues
-  homepage: https://github.com/kentfredric/Dist-Zilla-Plugin-RewriteVersion-Sanitized
-  repository: https://github.com/kentfredric/Dist-Zilla-Plugin-RewriteVersion-Sanitized.git
-version: '0.001001'
+  bugtracker: https://github.com/kentnl/Dist-Zilla-Plugin-RewriteVersion-Sanitized/issues
+  homepage: https://github.com/kentnl/Dist-Zilla-Plugin-RewriteVersion-Sanitized
+  repository: https://github.com/kentnl/Dist-Zilla-Plugin-RewriteVersion-Sanitized.git
+version: '0.001002'
 x_BuiltWith:
   modules:
     CPAN::Meta: '2.141520'
@@ -96,7 +96,7 @@ x_BuiltWith:
     Scalar::Util: '1.39'
     Test::CPAN::Changes: '0.28'
     Test::CPAN::Meta: '0.23'
-    Test::Kwalitee: '1.18'
+    Test::Kwalitee: '1.19'
     Test::More: '1.001003'
     Test::Pod: '1.48'
     Test::Pod::Coverage: '1.10'
@@ -431,7 +431,7 @@ x_Dist_Zilla:
         Dist::Zilla::Plugin::Git::Tag:
           branch: ~
           signed: 0
-          tag: 0.001001-source
+          tag: 0.001002-source
           tag_format: '%v-source'
           tag_message: v%v
           time_zone: local
@@ -485,7 +485,7 @@ x_Dist_Zilla:
         Dist::Zilla::Plugin::Git::Tag:
           branch: releases
           signed: 0
-          tag: '0.001001'
+          tag: '0.001002'
           tag_format: '%v'
           tag_message: v%v
           time_zone: local
