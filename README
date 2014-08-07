@@ -3,12 +3,10 @@ NAME
     force normalizing ENV{V} and other sources.
 
 VERSION
-    version 0.001001
+    version 0.001002
 
 SYNOPSIS
-    As per
-    "[Git::NextVersion::Sanitized]|Dist::Zilla::Plugin::Git::NextVersion::Sa
-    nitized"
+    As per "[Git::NextVersion::Sanitized]"
 
       V=2.6.0 dzil release # -> V=2.006000 interally
 

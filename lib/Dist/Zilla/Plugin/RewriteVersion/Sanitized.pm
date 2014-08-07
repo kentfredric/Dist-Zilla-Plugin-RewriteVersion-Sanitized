@@ -5,7 +5,7 @@ use utf8;
 
 package Dist::Zilla::Plugin::RewriteVersion::Sanitized;
 
-our $VERSION = '0.001001';
+our $VERSION = '0.001002';
 
 # ABSTRACT: RewriteVersion but force normalizing ENV{V} and other sources.
 
@@ -13,25 +13,25 @@ our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
 use Moose qw( extends with );
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 extends 'Dist::Zilla::Plugin::RewriteVersion';
 with 'Dist::Zilla::Role::Version::Sanitize';
 
 __PACKAGE__->meta->make_immutable;
 no Moose;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1;
 
@@ -47,11 +47,11 @@ Dist::Zilla::Plugin::RewriteVersion::Sanitized - RewriteVersion but force normal
 
 =head1 VERSION
 
-version 0.001001
+version 0.001002
 
 =head1 SYNOPSIS
 
-As per C<[Git::NextVersion::Sanitized]|Dist::Zilla::Plugin::Git::NextVersion::Sanitized>
+As per L<< C<[Git::NextVersion::Sanitized]>|Dist::Zilla::Plugin::Git::NextVersion::Sanitized >>
 
   V=2.6.0 dzil release # -> V=2.006000 interally
 
