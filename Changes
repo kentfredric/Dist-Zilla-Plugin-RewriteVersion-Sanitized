@@ -1,6 +1,8 @@
 Release history for Dist-Zilla-Plugin-RewriteVersion-Sanitized
 
 {{$NEXT}}
+
+0.001002 2014-08-07T15:58:29Z
  [00 Trivial]
  - update test::reportversions
  - minor POD derp
