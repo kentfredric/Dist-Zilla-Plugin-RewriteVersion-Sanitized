@@ -13,6 +13,12 @@ our $VERSION = '0.001002';
 
 use Moose qw( extends with );
 
+extends 'Dist::Zilla::Plugin::RewriteVersion';
+with 'Dist::Zilla::Role::Version::Sanitize';
+
+__PACKAGE__->meta->make_immutable;
+no Moose;
+
 =head1 SYNOPSIS
 
 As per L<< C<[Git::NextVersion::Sanitized]>|Dist::Zilla::Plugin::Git::NextVersion::Sanitized >>
@@ -26,11 +32,5 @@ So see L<< the documentation for Dist::Zilla::Role::Version::Sanitize|Dist::Zill
 attributes.
 
 =cut
-
-extends 'Dist::Zilla::Plugin::RewriteVersion';
-with 'Dist::Zilla::Role::Version::Sanitize';
-
-__PACKAGE__->meta->make_immutable;
-no Moose;
 
 1;
