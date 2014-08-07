@@ -3,7 +3,7 @@ NAME
     force normalizing ENV{V} and other sources.
 
 VERSION
-    version 0.001002
+    version 0.001003
 
 SYNOPSIS
     As per "[Git::NextVersion::Sanitized]"
