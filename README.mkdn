@@ -8,7 +8,7 @@ version 0.001002
 
 # SYNOPSIS
 
-As per `[Git::NextVersion::Sanitized]|Dist::Zilla::Plugin::Git::NextVersion::Sanitized`
+As per [`[Git::NextVersion::Sanitized]`](https://metacpan.org/pod/Dist::Zilla::Plugin::Git::NextVersion::Sanitized)
 
     V=2.6.0 dzil release # -> V=2.006000 interally
 

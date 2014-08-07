@@ -15,7 +15,7 @@ use Moose qw( extends with );
 
 =head1 SYNOPSIS
 
-As per C<[Git::NextVersion::Sanitized]|Dist::Zilla::Plugin::Git::NextVersion::Sanitized>
+As per L<< C<[Git::NextVersion::Sanitized]>|Dist::Zilla::Plugin::Git::NextVersion::Sanitized >>
 
   V=2.6.0 dzil release # -> V=2.006000 interally
 
