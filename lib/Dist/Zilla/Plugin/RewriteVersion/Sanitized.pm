@@ -13,25 +13,25 @@ our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
 use Moose qw( extends with );
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 extends 'Dist::Zilla::Plugin::RewriteVersion';
 with 'Dist::Zilla::Role::Version::Sanitize';
 
 __PACKAGE__->meta->make_immutable;
 no Moose;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1;
 
