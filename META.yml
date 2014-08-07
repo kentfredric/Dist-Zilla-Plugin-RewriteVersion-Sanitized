@@ -68,7 +68,7 @@ x_BuiltWith:
     Dist::Zilla::Plugin::ReadmeAnyFromPod: '0.142180'
     Dist::Zilla::Plugin::ReadmeFromPod: '0.21'
     Dist::Zilla::Plugin::RewriteVersion: '0.002'
-    Dist::Zilla::Plugin::RewriteVersion::Sanitized: '0.001002'
+    Dist::Zilla::Plugin::RewriteVersion::Sanitized: '0.001003'
     Dist::Zilla::Plugin::RunExtraTests: '0.022'
     Dist::Zilla::Plugin::Test::CPAN::Changes: '0.008'
     Dist::Zilla::Plugin::Test::Compile::PerFile: '0.002001'
@@ -250,7 +250,7 @@ x_Dist_Zilla:
           mantissa: '6'
           normal_form: numify
       name: '@Author::KENTNL/RewriteVersion::Sanitized'
-      version: '0.001002'
+      version: '0.001003'
     -
       class: Dist::Zilla::Plugin::PodWeaver
       config:
