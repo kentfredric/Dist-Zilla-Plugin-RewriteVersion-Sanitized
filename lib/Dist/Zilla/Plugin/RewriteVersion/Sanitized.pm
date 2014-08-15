@@ -19,6 +19,8 @@ with 'Dist::Zilla::Role::Version::Sanitize';
 __PACKAGE__->meta->make_immutable;
 no Moose;
 
+1;
+
 =head1 SYNOPSIS
 
 As per L<< C<[Git::NextVersion::Sanitized]>|Dist::Zilla::Plugin::Git::NextVersion::Sanitized >>
@@ -32,5 +34,3 @@ So see L<< the documentation for Dist::Zilla::Role::Version::Sanitize|Dist::Zill
 attributes.
 
 =cut
-
-1;
