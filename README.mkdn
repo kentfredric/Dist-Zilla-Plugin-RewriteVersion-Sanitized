@@ -4,7 +4,7 @@ Dist::Zilla::Plugin::RewriteVersion::Sanitized - RewriteVersion but force normal
 
 # VERSION
 
-version 0.001003
+version 0.001004
 
 # SYNOPSIS
 
