@@ -1,7 +1,7 @@
 {
    "abstract" : "RewriteVersion but force normalizing ENV{V} and other sources.",
    "author" : [
-      "Kent Fredric <kentfredric@gmail.com>"
+      "Kent Fredric <kentnl@cpan.org>"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142060",
@@ -858,8 +858,5 @@
          "version" : "5.020"
       }
    },
-   "x_authority" : "cpan:KENTNL",
-   "x_contributors" : [
-      "Kent Fredric <kentnl@cpan.org>"
-   ]
+   "x_authority" : "cpan:KENTNL"
 }
