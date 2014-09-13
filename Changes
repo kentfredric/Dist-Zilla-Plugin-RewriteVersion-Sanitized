@@ -6,6 +6,9 @@ Release history for Dist-Zilla-Plugin-RewriteVersion-Sanitized
  - develop: +1 ↑1 (suggests: ↑2)
  - test: (recommends: ↑1)
 
+ [Metadata]
+ - Set author = kentnl
+
 0.001003 2014-08-15T21:19:05Z
  [00 Trivial]
  - CPANDAY!
