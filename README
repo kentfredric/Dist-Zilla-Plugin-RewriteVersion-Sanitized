@@ -3,7 +3,7 @@ NAME
     force normalizing ENV{V} and other sources.
 
 VERSION
-    version 0.001003
+    version 0.001004
 
 SYNOPSIS
     As per "[Git::NextVersion::Sanitized]"
@@ -17,7 +17,7 @@ SYNOPSIS
     details and attributes.
 
 AUTHOR
-    Kent Fredric <kentfredric@gmail.com>
+    Kent Fredric <kentnl@cpan.org>
 
 COPYRIGHT AND LICENSE
     This software is copyright (c) 2014 by Kent Fredric
