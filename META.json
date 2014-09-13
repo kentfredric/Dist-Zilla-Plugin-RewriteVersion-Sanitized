@@ -109,7 +109,7 @@
    "provides" : {
       "Dist::Zilla::Plugin::RewriteVersion::Sanitized" : {
          "file" : "lib/Dist/Zilla/Plugin/RewriteVersion/Sanitized.pm",
-         "version" : "0.001004"
+         "version" : "0.001005"
       }
    },
    "release_status" : "stable",
@@ -124,7 +124,7 @@
          "web" : "https://github.com/kentnl/Dist-Zilla-Plugin-RewriteVersion-Sanitized"
       }
    },
-   "version" : "0.001004",
+   "version" : "0.001005",
    "x_BuiltWith" : {
       "modules" : {
          "CPAN::Meta" : "2.142060",
@@ -643,7 +643,7 @@
                "Dist::Zilla::Plugin::Git::Tag" : {
                   "branch" : null,
                   "signed" : 0,
-                  "tag" : "0.001004-source",
+                  "tag" : "0.001005-source",
                   "tag_format" : "%v-source",
                   "tag_message" : "v%v",
                   "time_zone" : "local"
@@ -714,7 +714,7 @@
                "Dist::Zilla::Plugin::Git::Tag" : {
                   "branch" : "releases",
                   "signed" : 0,
-                  "tag" : "0.001004",
+                  "tag" : "0.001005",
                   "tag_format" : "%v",
                   "tag_message" : "v%v",
                   "time_zone" : "local"
