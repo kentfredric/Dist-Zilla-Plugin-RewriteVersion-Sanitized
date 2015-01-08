@@ -33,4 +33,10 @@ around L<< C<[RewriteVersion]>|Dist::Zilla::Plugin::RewriteVersion >>.
 So see L<< the documentation for Dist::Zilla::Role::Version::Sanitize|Dist::Zilla::Role::Version::Sanitize >> for details and
 attributes.
 
+=head1 SEE ALSO
+
+L<Dist::Zilla::Plugin::RewriteVersion>
+
+L<Dist::Zilla::Plugin::RewriteVersion::Transitional>
+
 =cut
