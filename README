@@ -1,6 +1,18 @@
 Dist::Zilla::Plugin::RewriteVersion::Sanitized
 
+This is a subclass of "[RewriteVersion]" that applies version
+sanitization from all the various possible input sources ( Similar to
+"[Git::NextVersion::Sanitized]" ) by applying
+"Dist::Zilla::Role::Version::Sanitize" to it.
 
+Using this module instead of "[RewriteVersion]" allows you to do
+
+  V=2.6.0 dzil release
+
+And V will be interpreted as if you'd written "V=2.006000"
+
+For details on the parameters this "plugin" takes, see the documentation
+for Dist::Zilla::Role::Version::Sanitize.
 
 INSTALLATION
 
