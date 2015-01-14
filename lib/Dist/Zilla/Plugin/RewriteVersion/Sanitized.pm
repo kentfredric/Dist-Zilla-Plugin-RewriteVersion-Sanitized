@@ -5,7 +5,7 @@ use utf8;
 
 package Dist::Zilla::Plugin::RewriteVersion::Sanitized;
 
-our $VERSION = '0.001004';
+our $VERSION = '0.001005';
 
 # ABSTRACT: RewriteVersion but force normalizing ENV{V} and other sources.
 
@@ -33,19 +33,33 @@ Dist::Zilla::Plugin::RewriteVersion::Sanitized - RewriteVersion but force normal
 
 =head1 VERSION
 
-version 0.001004
+version 0.001005
 
-=head1 SYNOPSIS
+=head1 DESCRIPTION
 
-As per L<< C<[Git::NextVersion::Sanitized]>|Dist::Zilla::Plugin::Git::NextVersion::Sanitized >>
+This is a subclass of L<< C<[RewriteVersion]>|Dist::Zilla::Plugin::RewriteVersion >> that applies version
+sanitization from all the various possible input sources
+( Similar to L<< C<[Git::NextVersion::Sanitized]>|Dist::Zilla::Plugin::Git::NextVersion::Sanitized >> )
+by applying L<< C<Dist::Zilla::Role::Version::Sanitize>|Dist::Zilla::Role::Version::Sanitize >> to it.
 
-  V=2.6.0 dzil release # -> V=2.006000 interally
+Using this module instead of C<[RewriteVersion]> allows you to do
 
-This is really just a glue layer that wraps L<< C<Dist::Zilla::Role::Version::Sanitize>|Dist::Zilla::Role::Version::Sanitize >>
-around L<< C<[RewriteVersion]>|Dist::Zilla::Plugin::RewriteVersion >>.
+  V=2.6.0 dzil release
 
-So see L<< the documentation for Dist::Zilla::Role::Version::Sanitize|Dist::Zilla::Role::Version::Sanitize >> for details and
-attributes.
+And V will be interpreted as if you'd written C<V=2.006000>
+
+For details on the parameters this C<plugin> takes,
+see L<< the documentation for Dist::Zilla::Role::Version::Sanitize|Dist::Zilla::Role::Version::Sanitize >>.
+
+=head1 SEE ALSO
+
+=over 4
+
+=item * L<< C<[RewriteVersion]>|Dist::Zilla::Plugin::RewriteVersion >>
+
+=item * L<< C<[RewriteVersion::Transitional]>|Dist::Zilla::Plugin::RewriteVersion::Transitional >>
+
+=back
 
 =head1 AUTHOR
 
@@ -53,7 +67,7 @@ Kent Fredric <kentnl@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2014 by Kent Fredric <kentfredric@gmail.com>.
+This software is copyright (c) 2015 by Kent Fredric <kentfredric@gmail.com>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
