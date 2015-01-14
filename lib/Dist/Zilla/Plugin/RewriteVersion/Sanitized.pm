@@ -39,8 +39,12 @@ see L<< the documentation for Dist::Zilla::Role::Version::Sanitize|Dist::Zilla::
 
 =head1 SEE ALSO
 
-L<Dist::Zilla::Plugin::RewriteVersion>
+=over 4
 
-L<Dist::Zilla::Plugin::RewriteVersion::Transitional>
+=item * L<< C<[RewriteVersion]>|Dist::Zilla::Plugin::RewriteVersion >>
+
+=item * L<< C<[RewriteVersion::Transitional]>|Dist::Zilla::Plugin::RewriteVersion::Transitional >>
+
+=back
 
 =cut

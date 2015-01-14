@@ -24,9 +24,8 @@ see [the documentation for Dist::Zilla::Role::Version::Sanitize](https://metacpa
 
 # SEE ALSO
 
-[Dist::Zilla::Plugin::RewriteVersion](https://metacpan.org/pod/Dist::Zilla::Plugin::RewriteVersion)
-
-[Dist::Zilla::Plugin::RewriteVersion::Transitional](https://metacpan.org/pod/Dist::Zilla::Plugin::RewriteVersion::Transitional)
+- [`[RewriteVersion]`](https://metacpan.org/pod/Dist::Zilla::Plugin::RewriteVersion)
+- [`[RewriteVersion::Transitional]`](https://metacpan.org/pod/Dist::Zilla::Plugin::RewriteVersion::Transitional)
 
 # AUTHOR
 
