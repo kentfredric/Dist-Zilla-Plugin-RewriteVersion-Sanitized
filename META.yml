@@ -218,7 +218,7 @@ x_Dist_Zilla:
           mantissa: '6'
           normal_form: numify
       name: '@Author::KENTNL/RewriteVersion::Sanitized'
-      version: '0.001005'
+      version: '0.001006'
     -
       class: Dist::Zilla::Plugin::PodWeaver
       config:

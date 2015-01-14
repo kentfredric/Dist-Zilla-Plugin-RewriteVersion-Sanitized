@@ -373,7 +373,7 @@
                }
             },
             "name" : "@Author::KENTNL/RewriteVersion::Sanitized",
-            "version" : "0.001005"
+            "version" : "0.001006"
          },
          {
             "class" : "Dist::Zilla::Plugin::PodWeaver",
