@@ -18,13 +18,19 @@ around [`[RewriteVersion]`](https://metacpan.org/pod/Dist::Zilla::Plugin::Rewrit
 So see [the documentation for Dist::Zilla::Role::Version::Sanitize](https://metacpan.org/pod/Dist::Zilla::Role::Version::Sanitize) for details and
 attributes.
 
+# SEE ALSO
+
+[Dist::Zilla::Plugin::RewriteVersion](https://metacpan.org/pod/Dist::Zilla::Plugin::RewriteVersion)
+
+[Dist::Zilla::Plugin::RewriteVersion::Transitional](https://metacpan.org/pod/Dist::Zilla::Plugin::RewriteVersion::Transitional)
+
 # AUTHOR
 
 Kent Fredric <kentnl@cpan.org>
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2014 by Kent Fredric <kentfredric@gmail.com>.
+This software is copyright (c) 2015 by Kent Fredric <kentfredric@gmail.com>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
