@@ -47,13 +47,19 @@ around L<< C<[RewriteVersion]>|Dist::Zilla::Plugin::RewriteVersion >>.
 So see L<< the documentation for Dist::Zilla::Role::Version::Sanitize|Dist::Zilla::Role::Version::Sanitize >> for details and
 attributes.
 
+=head1 SEE ALSO
+
+L<Dist::Zilla::Plugin::RewriteVersion>
+
+L<Dist::Zilla::Plugin::RewriteVersion::Transitional>
+
 =head1 AUTHOR
 
 Kent Fredric <kentnl@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2014 by Kent Fredric <kentfredric@gmail.com>.
+This software is copyright (c) 2015 by Kent Fredric <kentfredric@gmail.com>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
