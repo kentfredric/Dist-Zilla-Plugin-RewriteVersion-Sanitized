@@ -21,17 +21,21 @@ no Moose;
 
 1;
 
-=head1 SYNOPSIS
+=head1 DESCRIPTION
 
-As per L<< C<[Git::NextVersion::Sanitized]>|Dist::Zilla::Plugin::Git::NextVersion::Sanitized >>
+This is a subclass of L<< C<[RewriteVersion]>|Dist::Zilla::Plugin::RewriteVersion >> that applies version
+sanitization from all the various possible input sources
+( Similar to L<< C<[Git::NextVersion::Sanitized]>|Dist::Zilla::Plugin::Git::NextVersion::Sanitized >> )
+by applying L<< C<Dist::Zilla::Role::Version::Sanitize>|Dist::Zilla::Role::Version::Sanitize >> to it.
 
-  V=2.6.0 dzil release # -> V=2.006000 interally
+Using this module instead of C<[RewriteVersion]> allows you to do
 
-This is really just a glue layer that wraps L<< C<Dist::Zilla::Role::Version::Sanitize>|Dist::Zilla::Role::Version::Sanitize >>
-around L<< C<[RewriteVersion]>|Dist::Zilla::Plugin::RewriteVersion >>.
+  V=2.6.0 dzil release
 
-So see L<< the documentation for Dist::Zilla::Role::Version::Sanitize|Dist::Zilla::Role::Version::Sanitize >> for details and
-attributes.
+And V will be interpreted as if you'd written C<V=2.006000>
+
+For details on the parameters this C<plugin> takes,
+see L<< the documentation for Dist::Zilla::Role::Version::Sanitize|Dist::Zilla::Role::Version::Sanitize >>.
 
 =head1 SEE ALSO
 

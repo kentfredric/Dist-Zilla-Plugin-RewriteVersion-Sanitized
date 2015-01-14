@@ -6,17 +6,21 @@ Dist::Zilla::Plugin::RewriteVersion::Sanitized - RewriteVersion but force normal
 
 version 0.001005
 
-# SYNOPSIS
+# DESCRIPTION
 
-As per [`[Git::NextVersion::Sanitized]`](https://metacpan.org/pod/Dist::Zilla::Plugin::Git::NextVersion::Sanitized)
+This is a subclass of [`[RewriteVersion]`](https://metacpan.org/pod/Dist::Zilla::Plugin::RewriteVersion) that applies version
+sanitization from all the various possible input sources
+( Similar to [`[Git::NextVersion::Sanitized]`](https://metacpan.org/pod/Dist::Zilla::Plugin::Git::NextVersion::Sanitized) )
+by applying [`Dist::Zilla::Role::Version::Sanitize`](https://metacpan.org/pod/Dist::Zilla::Role::Version::Sanitize) to it.
 
-    V=2.6.0 dzil release # -> V=2.006000 interally
+Using this module instead of `[RewriteVersion]` allows you to do
 
-This is really just a glue layer that wraps [`Dist::Zilla::Role::Version::Sanitize`](https://metacpan.org/pod/Dist::Zilla::Role::Version::Sanitize)
-around [`[RewriteVersion]`](https://metacpan.org/pod/Dist::Zilla::Plugin::RewriteVersion).
+    V=2.6.0 dzil release
 
-So see [the documentation for Dist::Zilla::Role::Version::Sanitize](https://metacpan.org/pod/Dist::Zilla::Role::Version::Sanitize) for details and
-attributes.
+And V will be interpreted as if you'd written `V=2.006000`
+
+For details on the parameters this `plugin` takes,
+see [the documentation for Dist::Zilla::Role::Version::Sanitize](https://metacpan.org/pod/Dist::Zilla::Role::Version::Sanitize).
 
 # SEE ALSO
 
