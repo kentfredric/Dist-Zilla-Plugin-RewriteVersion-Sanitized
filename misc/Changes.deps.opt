@@ -1,6 +1,8 @@
 This file contains changes in OPTIONAL dependencies for standard CPAN phases (configure/build/runtime/test)
 
 0.001006
+ [Added / configure suggests]
+ - JSON::PP 2.27300
 
 0.001005 2015-01-14T10:21:26Z
  [Added / runtime recommends]
@@ -30,4 +32,3 @@ This file contains changes in OPTIONAL dependencies for standard CPAN phases (co
 0.001001 2014-07-20T11:07:16Z
  [Added / test recommends]
  - CPAN::Meta::Prereqs
-
